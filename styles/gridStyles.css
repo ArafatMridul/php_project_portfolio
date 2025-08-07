@@ -1,0 +1,107 @@
+.grid_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+    @media (min-width: 48rem) {
+        gap: 2rem;
+        max-width: 800px;
+        margin-inline: auto;
+    }
+
+    @media (min-width: 75rem) {
+        max-width: 1200px;
+        margin-inline: auto;
+    }
+}
+
+.grid_item {
+    padding: 1rem;
+    border: 1px solid oklch(37.2% 0.044 257.287);
+    background-color: oklch(27.9% 0.041 260.031);
+    border-radius: 0.5rem;
+
+    @media (min-width: 75rem) {
+        padding: 2rem 4rem;
+    }
+}
+
+.intro {
+    grid-column: 1 / span 12;
+    
+
+    @media (min-width: 75rem) {
+        grid-column: 1 / span 8;
+        grid-row: 1 / span 2;
+    }
+}
+
+.github {
+    grid-column: 1 / span 6;
+    
+
+    @media (min-width: 75rem) {
+        grid-column: 9 / span 2;
+        
+    }
+}
+
+.linkedin {
+    grid-column: 7 / span 6;
+    
+
+    @media (min-width: 75rem) {
+        grid-column: 11 / span 2;
+        
+    }
+}
+
+.facebook {
+    grid-column: 1 / span 6;
+    
+
+    @media (min-width: 75rem) {
+        grid-column: 9 / span 2;
+        
+    }
+}
+
+.fm {
+    grid-column: 7 / span 6;
+    
+
+    @media (min-width: 75rem) {
+        grid-column: 11 / span 2;
+        
+    }
+}
+
+.about {
+    grid-column: 1 / span 12;
+    
+}
+
+.skills {
+    grid-column: 1 / span 12;
+
+    @media (min-width: 75rem) {
+        grid-column: 1 / span 6;
+    }
+}
+
+.projects {
+    grid-column: 1 / span 6;
+    
+
+    @media (min-width: 75rem) {
+        grid-column: 7 / span 3;
+    }
+}
+
+.contact {
+    grid-column: 7 / span 6;
+    
+    @media (min-width: 75rem) {
+        grid-column: 10 / span 3;
+    }
+}

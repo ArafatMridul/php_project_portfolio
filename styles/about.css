@@ -1,0 +1,15 @@
+.about {
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        color: oklch(55.4% 0.046 257.417);
+        
+        span {
+            color: oklch(86.9% 0.022 252.894);
+        }
+
+        @media (min-width: 75rem) {
+            font-size: 2.5rem;
+        }
+    }
+}

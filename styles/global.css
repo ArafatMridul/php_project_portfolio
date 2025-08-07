@@ -1,0 +1,109 @@
+@import url(gridStyles.css);
+@import url(Intro.css);
+@import url(about.css);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: oklch(20.8% 0.042 265.755);
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img,
+picture,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+input,
+textarea,
+button,
+select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github {
+    background-color: oklch(79.2% 0.209 151.711);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.github:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.linkedin {
+    background-color: oklch(45.7% 0.24 277.023);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.facebook {
+    background-color: oklch(62.3% 0.214 259.815);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.facebook:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.fm {
+    background-color: oklch(92.787% 0.01617 254.024);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.fm:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.facebook img,
+.github img,
+.linkedin img,
+.fm img {
+    height: 40px;
+    width: 40px;
+}
