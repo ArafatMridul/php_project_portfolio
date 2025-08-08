@@ -1,0 +1,33 @@
+.skills h2 {
+    font-size: 2rem;
+    color: oklch(86.9% 0.022 252.894);
+    margin-bottom: 1rem;
+}
+
+.sk {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    text-align: center;
+
+    @media (min-width: 75rem) {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+.sk div {
+    border: 3px solid oklch(68.298% 0.06737 257.309);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.sk img {
+    height: 40px;
+    width: auto;
+    margin-inline: auto;
+}
+
+.sk p {
+    font-size: 0.75rem;
+    color: oklch(86.9% 0.022 252.894);
+}

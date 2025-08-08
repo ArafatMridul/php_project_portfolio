@@ -44,6 +44,28 @@
         </div>
         <div class="grid_item skills">
             <h2>Skills</h2>
+            <div class="sk">
+                <div>
+                    <img class="img" src="assets/js.svg" alt="javascript">
+                    <p>JavaScript</p>
+                </div>
+                <div>
+                    <img class="img" src="assets/react.svg" alt="react">
+                    <p>React.js</p>
+                </div>
+                <div>
+                    <img class="img" src="assets/tailwindcss.svg" alt="tailwindcss">
+                    <p>TailwindCSS</p>
+                </div>
+                <div>
+                    <img class="img" src="assets/css.svg" alt="css">
+                    <p>CSS</p>
+                </div>
+                <div>
+                    <img class="img" src="assets/git.svg" alt="git">
+                    <p>Git</p>
+                </div>
+            </div>
         </div>
         <div class="grid_item projects">
             <h2>Projects</h2>
